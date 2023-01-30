@@ -25,7 +25,10 @@
 
 <body>
   <?php
-
+  $a = 10;
+  $b = 20;
+  $c = $a + $b;
+  echo $c;
   ?>
   <h1>This is a Heading</h1>
   <h2>This is a Heading</h2>
