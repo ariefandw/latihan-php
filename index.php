@@ -25,11 +25,13 @@
 
 <body>
   <?php
-  $a = 10;
-  $b = 20;
-  $c = $a + $b;
-  echo $c;
+  echo $_POST['a'] + $_POST['b'];
   ?>
+  <form method="post">
+    <input name="a" type="number" />
+    <input name="b" type="number" />
+    <button type="submit">Hitung</button>
+  </form>
   <h1>This is a Heading</h1>
   <h2>This is a Heading</h2>
   <p>This is a paragraph.</p>
